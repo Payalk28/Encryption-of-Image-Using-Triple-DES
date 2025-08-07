@@ -9,6 +9,7 @@
 
 ---
 
+
 ## 🛠️ Technologies Used
 
 - **Python**
@@ -20,6 +21,7 @@
 - **File Dialogs** — For image selection
 
 ---
+
 
 ## 🔐 Features
 
@@ -43,6 +45,7 @@
 
 ---
 
+
 ## 🧪 How It Works
 
 ### Encryption Flow:
@@ -62,11 +65,11 @@
 
 ---
 
+
 ## 🚧 Known Issues
 
 - ❌ **Integrity Check Bug in `decrypt_img.py`:**
   - The condition `if res.hexdigest() != str(hashcode.decode())` is incorrect.
   - It should be `if res.hexdigest() == str(hashcode.decode())` to validate integrity correctly.
 
-   git clone https://github.com/your-username/image-encryption-gui.git
-   cd image-encryption-gui
+ 
